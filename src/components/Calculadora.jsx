@@ -22,7 +22,7 @@ const Calculadora = () => {
 
     return (
         <div className="calculator">
-            <input type="text" value={input} onChange={handleClick} />
+            <input type="text" value={input} onChange={handleClick} readOnly/>
             <div className="buttons">
                 <button onClick={() => handleClick("7")}>7</button>
                 <button onClick={() => handleClick("8")}>8</button>
